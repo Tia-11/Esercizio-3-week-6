@@ -1,0 +1,12 @@
+@mixin animazione($durata,$inizio) {
+     animation-name: ridurre;
+     animation-duration: $durata;
+     @keyframes ridurre {
+        0%  {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+}

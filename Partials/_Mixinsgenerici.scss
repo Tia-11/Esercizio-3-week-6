@@ -1,0 +1,5 @@
+@mixin floating($tondo:20px,$ombra:1px 1px 1px,$bordo :1px solid black) {
+    border-radius: $tondo;
+    box-shadow: $ombra ;
+    border: $bordo;
+}

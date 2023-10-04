@@ -1,0 +1,12 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+$size-titolo : 3em;
+
+$size-nav : 0.8em;
+
+@mixin title-big {
+    font-size: $size-titolo;
+    color: white;
+  }

@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #640fc5;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.padding-xs {
+  padding: 10px;
+}
+
+.padding-sm {
+  padding: 12px;
+}
+
+.padding-normal {
+  padding: 16px;
+}
+
+.padding-lg {
+  padding: 24px;
+}
+
+.padding-xl {
+  padding: 32px;
+}
+
+.padding-xxl {
+  padding: 48px;
+}
+
+.margin-xs {
+  margin: 10px;
+}
+
+.margin-sm {
+  margin: 12px;
+}
+
+.margin-normal {
+  margin: 16px;
+}
+
+.margin-lg {
+  margin: 24px;
+}
+
+.margin-xl {
+  margin: 32px;
+}
+
+.margin-xxl {
+  margin: 48px;
+}
+
+.blu {
+  background-color: #0e6cff;
+}
+
+.arancio {
+  background-color: #ff8700;
+}
+
+.verde {
+  background-color: #4caf50;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+nav .logo {
+  width: 16em;
+}
+nav a {
+  color: white;
+  font-size: 2em;
+}
+nav div {
+  margin-right: 8em;
+}
+
+.sezione1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sezione1 h1 {
+  font-size: 3em;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.sezione1 .divsez1 {
+  display: flex;
+  align-items: center;
+}
+.sezione1 .divsez1 img {
+  margin-right: 3em;
+  width: 50em;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px;
+  border: 1px solid grey;
+}
+.sezione1 .divsez1 p {
+  margin-left: 3em;
+  font-size: 1.3em;
+}
+.sezione1 .bottoni {
+  display: flex;
+}
+.sezione1 .bottoni button {
+  color: white;
+  font-size: 1.5em;
+  padding: 1em 6em 1em 6em;
+  border-radius: 20px;
+  margin: 4em;
+}
+.sezione1 .bottoni button:hover {
+  transform: scale(2);
+}
+
+.sezione2 {
+  width: 80rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sezione2 div {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sezione2 div img {
+  width: 30rem;
+  border-radius: 18px;
+  box-shadow: 2px 2px 5px;
+  border: 1px solid black;
+  animation-name: ridurre;
+  animation-duration: 4s;
+}
+@keyframes ridurre {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+$sizes-map: (
+  xs: 10px,
+  sm: 12px,
+  normal: 16px,
+  lg: 24px,
+  xl: 32px,
+  xxl: 48px,
+);
+
+@each $name, $value in $sizes-map {
+    .padding-#{$name} {
+      padding: $value;
+    }
+  }
+
+
+
+@each $name, $value in $sizes-map {
+    .margin-#{$name} {
+      margin: $value;
+    }
+  }
